@@ -53,6 +53,7 @@
 import React from 'react';
 import Header from './component/Header';
 import Tes from './component/module/Tes';
+import {Button, Input} from './component/Named';
 
 function App() {
   return(
@@ -60,6 +61,8 @@ function App() {
       <h1>LATIHAN EXPORT IMPORT</h1>
       <Header/>
       <Tes/>
+      <Input/>
+      <Button/>
     </React.Fragment>
   );
 }
